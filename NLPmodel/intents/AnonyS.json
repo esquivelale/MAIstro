@@ -1,0 +1,102 @@
+{
+  "id": "44353092-adcb-48d8-b455-06748cce39a8",
+  "parentId": "9194b3f6-ab1a-4904-9040-c716c403ca90",
+  "rootParentId": "9194b3f6-ab1a-4904-9040-c716c403ca90",
+  "name": "AnonyS",
+  "auto": true,
+  "contexts": [
+    "Anony-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Anony.Anony-custom",
+      "affectedContexts": [
+        {
+          "name": "AnonyS-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "32528058-dd58-46ea-9003-7b99792bd47f",
+          "name": "confirmar",
+          "required": false,
+          "dataType": "@Confirmar",
+          "value": "$confirmar",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "ac1d9794-24b7-42b4-8ceb-855379c02eb4",
+          "name": "Confirmar2",
+          "required": true,
+          "dataType": "@Confirmar",
+          "value": "$Confirmar2",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Considera usted que la distancia a su escuela es determinante para abandonar secundaria? (Indique si o no)"
+            },
+            {
+              "lang": "es",
+              "value": "📍Para determinar la distancia entre ti y la escuela, te agradecemos que nos compartas tu ubicación e indiques confirmo. \n\n\nEn caso de no estar de acuerdo, indica NO!"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "📍Para determinar la distancia entre ti y la escuela, te agradecemos que nos compartas tu ubicación e indiques confirmo. \n\n\nEn caso de no estar de acuerdo, indica NO!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "Seleccione",
+          "replies": [
+            "Confirmo",
+            "No"
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

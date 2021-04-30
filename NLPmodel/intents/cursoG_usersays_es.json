@@ -1,0 +1,77 @@
+[
+  {
+    "id": "89035a4c-9bb6-46e2-bd53-87dfd61590de",
+    "data": [
+      {
+        "text": "11mo",
+        "meta": "@grado",
+        "alias": "grado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9bbe7cf1-7ba2-4e40-8c6e-16a168a23a44",
+    "data": [
+      {
+        "text": "10mo",
+        "meta": "@grado",
+        "alias": "grado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e274537a-0931-44f0-b4c4-ea7ea1a4241c",
+    "data": [
+      {
+        "text": "9no",
+        "meta": "@grado",
+        "alias": "grado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "6cb2ca21-3956-4525-abe8-0a1fd6caa208",
+    "data": [
+      {
+        "text": "8vo",
+        "meta": "@grado",
+        "alias": "grado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "31f3302d-a483-427d-a538-1679773ed556",
+    "data": [
+      {
+        "text": "7mo",
+        "meta": "@grado",
+        "alias": "grado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

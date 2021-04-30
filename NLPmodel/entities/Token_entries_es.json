@@ -1,0 +1,29 @@
+[
+  {
+    "value": "ABC123",
+    "synonyms": [
+      "ABC123"
+    ]
+  },
+  {
+    "value": "Juan Rulfo",
+    "synonyms": [
+      "Juan Rulfo",
+      "XYZ123"
+    ]
+  },
+  {
+    "value": "Manuel Avila Camacho",
+    "synonyms": [
+      "Manuel Avila Camacho",
+      "GDL001"
+    ]
+  },
+  {
+    "value": "Benito Juarez",
+    "synonyms": [
+      "Benito Juarez",
+      "AAA002"
+    ]
+  }
+]

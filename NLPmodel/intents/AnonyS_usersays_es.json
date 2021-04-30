@@ -1,0 +1,42 @@
+[
+  {
+    "id": "5980ecb3-3eb7-4b3d-80e6-fea727084cf0",
+    "data": [
+      {
+        "text": "si",
+        "meta": "@Confirmar",
+        "alias": "confirmar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "660f7f5f-7244-497b-8b98-7fc41a898728",
+    "data": [
+      {
+        "text": "Si",
+        "meta": "@Confirmar",
+        "alias": "confirmar",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "no",
+        "meta": "@Confirmar",
+        "alias": "Confirmar2",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

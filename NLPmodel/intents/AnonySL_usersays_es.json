@@ -1,0 +1,32 @@
+[
+  {
+    "id": "f08f5eaf-aba1-4423-8051-bf60a90f9756",
+    "data": [
+      {
+        "text": "confirmo",
+        "meta": "@Confirmar",
+        "alias": "confirmar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "126a0753-4939-440d-97c4-a52e281bea70",
+    "data": [
+      {
+        "text": "Confirmar",
+        "meta": "@Confirmar",
+        "alias": "confirmar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "id": "fb23ebb3-fe1a-4a7e-899e-47a5d68429b5",
+  "name": "Confirmar",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "2598ec59-3cf4-4109-bd6d-4085d50fcb21",
+    "data": [
+      {
+        "text": "matematicas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "b3346d87-fe83-4dc0-9b9c-e7cd858d5499",
+    "data": [
+      {
+        "text": "ciencia",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

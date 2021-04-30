@@ -1,0 +1,69 @@
+{
+  "id": "a1d3f59d-71c5-4297-bcca-a687edd203ed",
+  "parentId": "9259df4c-ba56-4758-ad4f-45868a12e576",
+  "rootParentId": "1b272dc5-a408-4ab1-be2e-9b937675de67",
+  "name": "cursoGcFL",
+  "auto": true,
+  "contexts": [
+    "cursoGcF-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "curso.curso-custom.cursoG-custom.cursoGc-custom.cursoGcF-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "3",
+          "platform": "telegram",
+          "imageUrl": "https://www.fhybea.com/herramientas/imagenes_articulos/primera-ley-newton/primera-ley-newton.png",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "1. Primera ley de Newton o ley de inercia:\nNos dice que si sobre un cuerpo no actúa ningún otro, este permanecerá indefinidamente moviéndose en línea recta con velocidad constante (incluido el estado de reposo, que equivale a velocidad cero)."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "Quieres conocer más sobre",
+          "replies": [
+            "Segunda ley de Newto",
+            "Intro a Física",
+            "Otro Tema"
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,80 @@
+{
+  "id": "bff88c8b-62d4-4b0d-990a-a23fb8120fcf",
+  "parentId": "44353092-adcb-48d8-b455-06748cce39a8",
+  "rootParentId": "9194b3f6-ab1a-4904-9040-c716c403ca90",
+  "name": "AnonySL",
+  "auto": true,
+  "contexts": [
+    "AnonyS-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Anony.Anony-custom.AnonyS-custom",
+      "affectedContexts": [
+        {
+          "name": "AnonySL-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ad180fe8-cdcf-403f-9cf7-1e08e2633986",
+          "name": "confirmar",
+          "required": false,
+          "dataType": "@Confirmar",
+          "value": "$confirmar",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "📍Genial, determinamos que la distancia de tu ubicación a la escuela es de aproximadamente de 5 km"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "Ahora, selecciona que tan imporante es tu situación socieconómica a la hora de abandonar tu escuela",
+          "replies": [
+            "Muy Importante",
+            "Relevante",
+            "Nada Relevante"
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

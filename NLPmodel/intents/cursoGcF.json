@@ -1,0 +1,54 @@
+{
+  "id": "9259df4c-ba56-4758-ad4f-45868a12e576",
+  "parentId": "434cdd42-f7b7-4e19-94d9-5395a6a65635",
+  "rootParentId": "1b272dc5-a408-4ab1-be2e-9b937675de67",
+  "name": "cursoGcF",
+  "auto": true,
+  "contexts": [
+    "cursoGc-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "curso.curso-custom.cursoG-custom.cursoGc-custom",
+      "affectedContexts": [
+        {
+          "name": "cursoGcF-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "Genial, sobre Física tenemos los siguientes cursos:",
+          "replies": [
+            "Intro Física",
+            "Unidades Medida",
+            "Leyes Físicas"
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "d1382a53-34c7-4f49-a2da-c4a52b3fbb4c",
+    "data": [
+      {
+        "text": "iniciar curso",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ce4fe08c-18e0-4358-95cb-9770a0da034f",
+    "data": [
+      {
+        "text": "ver curso",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

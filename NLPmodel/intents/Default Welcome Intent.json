@@ -1,0 +1,76 @@
+{
+  "id": "9887f3d7-e26e-40c4-9f48-127dc2ca978d",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "3",
+          "platform": "telegram",
+          "imageUrl": "https://media.giphy.com/media/VzwQfK9VRWpO4VuoAG/giphy.gif",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "😃Hola, te saluda El MAIstro Bot 🤖 Maestro virtual que te puede ayudar a practicar tus asignaciones de la Prepa.\n\nRecopilamos datos de manera Anónima, para medir factores y causas directas de la deserción escolar en Jalisco."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "Ayúdanos a identificar los principales factores de riesgo del abandono escolar en Jalisco",
+          "replies": [
+            "Registro Anónimo",
+            "Ver Políticas Uso",
+            "Ver Curso"
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "+Ver Términos y Condiciones de Uso: https://maistro.globalhackathons.co/"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

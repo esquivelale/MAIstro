@@ -1,0 +1,70 @@
+{
+  "id": "8fa40d0b-a9ae-4a12-968f-c0d3a0de0fba",
+  "parentId": "1b272dc5-a408-4ab1-be2e-9b937675de67",
+  "rootParentId": "1b272dc5-a408-4ab1-be2e-9b937675de67",
+  "name": "cursoG",
+  "auto": true,
+  "contexts": [
+    "curso-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "curso.curso-custom",
+      "affectedContexts": [
+        {
+          "name": "cursoG-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a5bcf3cd-d5e7-4e67-a2ff-a3f9fe5d1c2d",
+          "name": "grado",
+          "required": false,
+          "dataType": "@grado",
+          "value": "$grado",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "Ahora selecciona la materia de tu interés:",
+          "replies": [
+            "Matemáticas",
+            "Ciencias",
+            "Inglés",
+            "Español"
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

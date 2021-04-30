@@ -1,0 +1,50 @@
+{
+  "id": "b329e36a-ac84-4e0d-a1df-73babf43cb20",
+  "parentId": "bff88c8b-62d4-4b0d-990a-a23fb8120fcf",
+  "rootParentId": "9194b3f6-ab1a-4904-9040-c716c403ca90",
+  "name": "AnonySLM",
+  "auto": true,
+  "contexts": [
+    "AnonySL-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Anony.Anony-custom.AnonyS-custom.AnonySL-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "Ahora, marca el rango de ingresos económicos de tu hogar:",
+          "replies": [
+            "\u003c4251",
+            "\u003c8502",
+            "\u003c17,004",
+            "\u003e17,005"
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

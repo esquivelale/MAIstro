@@ -1,0 +1,9 @@
+{
+  "id": "7d6e0f50-c6e4-4577-b7fd-3c30654637bd",
+  "name": "grado",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

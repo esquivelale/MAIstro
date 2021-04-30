@@ -1,0 +1,54 @@
+{
+  "id": "434cdd42-f7b7-4e19-94d9-5395a6a65635",
+  "parentId": "8fa40d0b-a9ae-4a12-968f-c0d3a0de0fba",
+  "rootParentId": "1b272dc5-a408-4ab1-be2e-9b937675de67",
+  "name": "cursoGc",
+  "auto": true,
+  "contexts": [
+    "cursoG-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "curso.curso-custom.cursoG-custom",
+      "affectedContexts": [
+        {
+          "name": "cursoGc-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "Sobre qué área de la Ciencia te gustaría aprender?",
+          "replies": [
+            "Física",
+            "Química",
+            "Biología"
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,106 @@
+{
+  "id": "9194b3f6-ab1a-4904-9040-c716c403ca90",
+  "name": "Anony",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Anony-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f3636020-e7e8-459a-920f-2cb570cdbd2c",
+          "name": "Token",
+          "required": true,
+          "dataType": "@Token",
+          "value": "$Token",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Bienvenid@ 🤖 Para continuar, favor digital el código (token) que te brindaron en tu escuela:"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "53d256c5-d542-496f-85f4-044f528c724c",
+          "name": "Confirmar",
+          "required": false,
+          "dataType": "@Confirmar",
+          "value": "$Confirmar",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "3",
+          "platform": "telegram",
+          "imageUrl": "https://i.ibb.co/fDTZv2S/map.png",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Te agradecemos que confirmes que asistes a la *Escuela $token* \n\n📍Ubicada en MARIANO JIMENEZ 300\n📍Localidad: YAHUALICA DE GONZALEZ GALLO"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "Selecciona tu respuesta:",
+          "replies": [
+            "Si",
+            "No"
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

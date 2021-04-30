@@ -1,0 +1,59 @@
+[
+  {
+    "id": "1e23b177-10bf-44ec-a723-8921c5fb8b99",
+    "data": [
+      {
+        "text": "registro",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " anonimo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "5dfb5cb1-6dea-4bba-97c1-66061846d865",
+    "data": [
+      {
+        "text": "continuar anónimo ",
+        "userDefined": false
+      },
+      {
+        "text": "ABC123",
+        "meta": "@Token",
+        "alias": "Token",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "XYZ123",
+        "meta": "@Token",
+        "alias": "Token",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "si",
+        "meta": "@Confirmar",
+        "alias": "Confirmar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]
